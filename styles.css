@@ -1,0 +1,17 @@
+body {
+    font-family: sans-serif;
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 1rem;
+  }
+  
+  select, button {
+    font-size: 1rem;
+    padding: 0.5rem;
+    margin-top: 1rem;
+  }
+  
+  #transcript, #response {
+    margin-top: 1rem;
+    font-size: 1.1rem;
+  }  

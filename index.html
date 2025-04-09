@@ -2,28 +2,32 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Multilingual Voice Assistant</title>
+  <title>RoboGlot</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-  <h2>🌍 Multilingual Voice Assistant</h2>
+  <h2>&#129302 RoboGlot - Your Multilingual AI Conversationalist &#129302</h2>
 
   <label for="languageSelect">Select Language:</label>
   <select id="languageSelect">
+    <option value="zh-CN">中文 (简体)</option>
     <option value="en-US">English (US)</option>
     <option value="es-ES">Español</option>
-    <option value="fr-FR">Français</option>
     <option value="de-DE">Deutsch</option>
-    <option value="ja-JP">日本語</option>
+    <option value="fr-FR">Français</option>
+    <option value="ga-IE">Gaeilge</option>
     <option value="it-IT">Italiano</option>
+    <option value="ja-JP">日本語</option>
+    <option value="kr-KR">한국어</option>
+    <option value="th-TH">ภาษาไทย</option>
   </select>
 
   <br>
-  <button id="startBtn">🎤 Start Speaking</button>
+  <button id="startBtn">Start Speaking</button>
 
-  <div id="transcript"><strong>You said:</strong> <span></span></div>
-  <div id="response"><strong>Gemini says:</strong> <span></span></div>
+  <div id="transcript"><strong>You:</strong> <span></span></div>
+  <div id="response"><strong>RoboGlot:</strong> <span></span></div>
 
   <script src="script.js"></script>
 </body>
